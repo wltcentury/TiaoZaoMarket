@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.newer.fleamarket.homefragment.HomeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_toolbar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorone"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/home_toolbar"
+        android:layout_alignLeft="@+id/home_toolbar"
+        android:layout_alignStart="@+id/home_toolbar"
+        android:src="@drawable/home"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="名称：小强"
+        android:id="@+id/textView2"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="价格：88.00￥"
+        android:id="@+id/textView11"
+        android:textSize="25sp"
+        android:textColor="@color/colorfive"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textSize="20sp"
+        android:text="描述：。。。。。。。。。。。。"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系方式：18390932725"
+        android:id="@+id/textView13"
+        android:textSize="20dp"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:text="New Text"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11"
+        android:background="@color/colorone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:text="New Text"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView11"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11"
+        android:background="@color/colorone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="摊名：强嗨"
+        android:id="@+id/textView14"
+        android:layout_marginTop="42dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13" />
+
+</RelativeLayout>

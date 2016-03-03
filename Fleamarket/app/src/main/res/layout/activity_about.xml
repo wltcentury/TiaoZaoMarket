@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorone"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳蚤市场 1.0.1"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:text="New Text"
+        android:id="@+id/textView18"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colortwo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:text="New Text"
+        android:id="@+id/textView19"
+        android:layout_marginBottom="142dp"
+        android:background="@color/colortwo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关于我们"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       我们是一个由在校大学生组成的三人小团队，致力于软件的开发，我们有着共同的爱好和目标，合作研发这款app是为了方便在校在大学的二手物品交易。"
+        android:id="@+id/textView21"
+        android:textSize="15dp"
+        android:padding="30dp"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用条款和隐私政策"
+        android:id="@+id/textView24"
+        android:layout_alignTop="@+id/textView19"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳蚤公司 版权所有"
+        android:id="@+id/textView25"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/textView24"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyrigh@2016 Fiea"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/textView25"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp"/>
+
+
+</RelativeLayout>
